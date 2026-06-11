@@ -5,9 +5,8 @@
   create a repo called  chr13b/chr13b  (public), add this file as README.md at
   its root, and it will render at the top of https://github.com/chr13b.
 
-  TODO before publishing:
-   - Fill in the LinkedIn URL and confirm the email / degree line.
-   (Project links were matched to your live public repos on 2026-06-11.)
+  Note: project links were matched to your live public repos on 2026-06-11.
+  Optional: double-check the "MSc @ ETH Zürich" affiliation line still reads how you want.
 -->
 
 <h1 align="center">Hi, I'm Christian Bertsch 👋</h1>
@@ -72,6 +71,9 @@ first principles in NumPy and wiring up PyTorch, BoTorch, or an LLM-backed RAG s
 **Data-science hackathons**
 - [Solar PV Forecasting & Spot-Market Trading](https://github.com/chr13b/solar-pv-forecasting-trading) — day-ahead Swiss PV forecasting (Ridge + XGBoost ensemble) → trading positions (Axpo Datathon 2024)
 
+**Tooling & open source**
+- [honest-loop](https://github.com/chr13b/honest-loop) — a Claude Code plugin for disciplined, self-falsifying experiment loops: propose one change, measure it against the noise, keep only real wins, and report the honest limits (the methodology behind the LLM post-training lab above)
+
 ---
 
 ### 🛠️ Tech stack
@@ -94,7 +96,6 @@ first principles in NumPy and wiring up PyTorch, BoTorch, or an LLM-backed RAG s
 
 <p align="left">
   <a href="mailto:chris.bertsch01@googlemail.com">📧 Email</a> &nbsp;·&nbsp;
-  <!-- TODO: add your real LinkedIn URL -->
   <a href="https://www.linkedin.com/in/christian-bertsch-ml/">💼 LinkedIn</a>
 </p>
 
