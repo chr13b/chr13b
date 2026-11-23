@@ -41,6 +41,7 @@ first principles in NumPy and wiring up PyTorch, BoTorch, or an LLM-backed RAG s
 
 | Project | What it is | Highlights |
 |---|---|---|
+| **[denovo-kemp](https://github.com/chr13b/denovo-kemp)** | Purely de novo Kemp eliminase design: RFdiffusion3 motif scaffolding, steered LigandMPNN inverse folding and Boltz-2 cofolding, with five-seed and held-out-seed replication (team project) | **11-fold** enrichment of good designs from logit-bias steering (p = 0.013) · TM ≤ 0.61 novelty against the PDB · **> 14,000** designs generated or scored across three routes · reproducible by construction · **RFdiffusion3 · LigandMPNN · Boltz-2** |
 | **[OpenFold3 — PDE10A Domain Adaptation](https://github.com/chr13b/openfold3-pde10a-domain-adaption)** | Fine-tuning the OpenFold3 structure-prediction model for PDE10A protein–ligand pose prediction via distribution-aware, PDB-scale data augmentation | **+0.20 PL LDDT** and **−2.3 Å** ligand RMSD on a held-out set · foundation-model fine-tuning |
 | **[GP-BayesOpt for Antibody Design](https://github.com/chr13b/gp-bayesopt-antibody-design-lab)** | Gaussian-process surrogate + multi-task Bayesian optimization over ESM-2 protein embeddings | GP predicts developability/specificity at R² ≈ 0.86 / 0.97 on real lab data; closed-loop BO beats random search (2.26 vs 1.45) · **BoTorch · GPyTorch** |
 | **[DeepPoly Robustness Verifier](https://github.com/chr13b/deeppoly-robustness-verifier)** | Sound neural-network verifier that *proves* L∞ robustness via convex relaxation + learnable ReLU bounds | **69/70** test cases correct, **0** unsound certifications, across 13 networks · **PyTorch (autograd)** |
@@ -88,7 +89,7 @@ first principles in NumPy and wiring up PyTorch, BoTorch, or an LLM-backed RAG s
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
-**Also:** BoTorch / GPyTorch · OpenFold3 · Scanpy / AnnData · XGBoost / LightGBM · SHAP / Captum · Gradio · Chroma
+**Also:** BoTorch / GPyTorch · OpenFold3 · RFdiffusion3 / LigandMPNN / Boltz-2 · Foldseek · Slurm · Scanpy / AnnData · XGBoost / LightGBM · SHAP / Captum · Gradio · Chroma
 
 ---
 
